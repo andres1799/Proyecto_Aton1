@@ -1,0 +1,11 @@
+<?php
+
+require('models/getMonitores.php');
+
+$cons = new Consultas();
+
+$monitores = $cons->getMonitores();
+
+require('views/monitoresusu.php');
+
+?>
